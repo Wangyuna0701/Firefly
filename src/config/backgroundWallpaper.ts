@@ -64,12 +64,15 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
             "/images/011.jpg",
             "/images/012.jpg",
             "/images/013.jpg",
+            "/images/014.jpg",
+            "/images/015.jpg",
+            "/images/016.jpg",
             "/images/beijing.jpg",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"/images/011.jpg",
+			
 		],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组，参考上面壁纸配置）
@@ -80,7 +83,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
 		// 壁纸遮罩暗度，让横幅文字显示更清晰，0-1之间，值越大越暗
-		dimOpacity: 0.2,
+		dimOpacity: 0.1,
 		// 多视频播放模式："order" 顺序循环，"random" 随机切换（仅当 playerUrl 为数组时生效）
 		playerMode: "random",
 		// 主页横幅文字
@@ -133,7 +136,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 打字速度（毫秒）
 				speed: 500,
 				// 删除速度（毫秒）
-				deleteSpeed: 50,
+				deleteSpeed: 200,
 				// 完全显示后的暂停时间（毫秒）
 				pauseTime: 4000,
 			},
