@@ -26,8 +26,20 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	 *
 	 * 支持配置多张图片（数组），每次刷新页面随机显示一张：
 	 * desktop: [
-	 * "assets/images/DesktopWallpaper/d1.avif",
-	 * "assets/images/DesktopWallpaper/d2.avif",
+	 * "/images/001.jpg",
+	 * "/images/002.jpg",
+	 * "/images/003.jpg",
+	 * "/images/004.jpg",
+	 * "/images/005.jpg",
+	 * "/images/006.jpg",
+	 * "/images/007.jpg",
+	 * "/images/008.jpg",
+	 * "/images/009.jpg",
+	 * "/images/010.jpg",
+	 * "/images/011.jpg",
+	 * "/images/012.jpg",
+	 * "/images/013.jpg",
+	 * "/images/beijing.jpg",
 	 * ],
 	 *
 	 * mobile:[
@@ -39,12 +51,20 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"/images/001.jpg",
+            "/images/002.jpg",
+            "/images/003.jpg",
+            "/images/004.jpg",
+            "/images/005.jpg",
+            "/images/006.jpg",
+            "/images/007.jpg",
+            "/images/008.jpg",
+            "/images/009.jpg",
+            "/images/010.jpg",
+            "/images/011.jpg",
+            "/images/012.jpg",
+            "/images/013.jpg",
+            "/images/beijing.jpg",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
@@ -78,12 +98,35 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"好想家",
+				"只要今天还没结束，你就有机会用好事覆盖坏记忆",
+				"我一直捉摸不透，日子怎么能既漫长又短暂",
+				"人是一切社会关系的总和",
+				"你读这句话的时候，这几秒就没了，因为我是时间掠夺者，专门发无聊的东西来浪费你的时间",
+				"冷知识：冒号前面才是冷知识",
+				"坏了坏了，这下好了",
+				"听我一句劝，听我两句劝，听我三四五六七八句劝，反正劝啥忘了，你先听着就对了",
+				"我会根据朋友的恶俗程度，来调整我的恶俗程度。至今没有人知道我的下线。",
+				"我发现学习的时候把眼睛闭上很舒服",
+				"其实我不是拖延症，之所以等到最后一分钟再去做，是因为那个时候我年纪更大，做事也更成熟一些。",
+				"我需要很多很多爱（没有说钱就不要的意思）",
+				"话到嘴边又咽了下去，每天以此获得饱腹感",
+				"我顶着非常巨大的智力障碍和健忘症在上学",
+				"下次你别说你记忆力不好你要说你擅长忘记这样会显得你很忧郁而不是很蠢",
+				"上学感觉智商太低了，上网感觉智商太高了，上床睡觉刚刚好",
+				"亲密度+1",
+				"然而，然而......",
+				"好了好了，这下坏了",
+				"喜欢事情悬而未落的时候，好模糊",
+				"喵。",
+				"(｡ •﹃• ｡)",
+				"让人平静的日子就是好日子",
+				"我们的关系能随时说废话吗？",
+				"早安晚安，四季平安",
+				"我也不懂我自己",
+				"加载中。。。",
+				"我们都讨厌无暇的完美，偏爱尖锐的残缺。",
+				"有时候秘密不是需要被破解的谜题，而是需要被尊重的生命轨迹。",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -130,7 +173,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 壁纸轮播配置，横幅壁纸和全屏壁纸共享，仅在配置多张图片时生效
 		carousel: {
 			// 是否启用壁纸轮播；关闭时保持每次刷新随机显示一张
-			enable: false,
+			enable: true,
 			// 轮播切换间隔（毫秒）
 			interval: 5000,
 			// 过渡效果: 'fade' 渐变 | 'zoom' 缩放 | 'slide' 滑动 | 'kenburns' 旋转木马
